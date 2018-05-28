@@ -9,7 +9,8 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 while True: print('')
-    acct = input('Enter Twitter Account:') if (len(acct) < 1): break
+    acct = input('Enter Twitter Account:')
+    if (len(acct) < 1): break
     url = twurl.augment(TWITTER_URL,{'screen_name': acct, 'count': '2'})
     print('Retrieving', url)
     connection = urllib.request.urlopen(url, context=ctx)

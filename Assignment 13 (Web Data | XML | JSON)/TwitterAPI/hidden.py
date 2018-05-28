@@ -1,5 +1,5 @@
 def oauth():
-return {"consumer_key": "h7Lu...Ng",
-        "consumer_secret": "dNKenAC3New...mmn7Q",
-        "token_key": "10185562-eibxCp9n2...P4GEQQOSGI",
-        "token_secret": "H0ycCFemmC4wyf1...qoIpBo"}
+return {"consumer_key": "THQQFDBx647D1SvWo7yWRg1t",
+        "consumer_secret": "fzZYvPhxlNfyHC5mPJgkIzdHiRqnrjoWnMOqa9mQbZCDNCy33",
+        "token_key": "1344017635-UFPIirBfAlryqztKuoZoXDC0UjdAxZkQksIH5H",
+        "token_secret": "bpzJUsLItUEKxG6UczmjaJrbq851tTOw1Ml2aTu402Sj"}
